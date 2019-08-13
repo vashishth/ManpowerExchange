@@ -1,6 +1,6 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
@@ -12,12 +12,14 @@
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 50) {
             $('.scrolling-navbar').addClass('top-nav-collapse');
+            // $('.navbar').addClass("navbar-hide");
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
+            // $('.navbar').removeClass("navbar-hide");
         }
     });
 
-    // one page navigation 
+    // one page navigation
     $('.navbar-nav').onePageNav({
       currentClass: 'active'
     });
@@ -44,9 +46,9 @@
         mobile: false
     });
 
-    wow.init();    
+    wow.init();
 
-     /* Testimonials Carousel 
+     /* Testimonials Carousel
     ========================================================*/
     var owl = $("#testimonials");
       owl.owlCarousel({
@@ -77,8 +79,8 @@
                 items: 3
             }
         }
-      });  
-      
+      });
+
 
     /* Back Top Link active
     ========================================================*/
@@ -100,6 +102,6 @@
         return false;
       });
 
-  });      
+  });
 
 }(jQuery));
