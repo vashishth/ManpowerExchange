@@ -48,22 +48,22 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
               <li class="nav-item active">
-                <a class="nav-link" href="https://www.manpower.exchange/#hero-area">
+                <a data-scroll class="nav-link" href="#hero-area">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.manpower.exchange/#services">
+                <a data-scroll class="nav-link" href="#services">
                   Services
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.manpower.exchange/#about-us">
+                <a data-scroll class="nav-link" href="#about-us">
                   About us
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.manpower.exchange/#contact">
+                <a data-scroll class="nav-link" href="#contact">
                   Contact
                 </a>
               </li>
@@ -84,7 +84,7 @@
                 <div class="header-button">
                   <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/manpower-exchange/30-minute-meeting'});return false;" class="btn btn-common">Schedule an Appointment</i></a>
 
-                  <a href="https://www.manpower.exchange/#services" class="btn btn-border scrollcustom">Learn More</i></a>
+                  <a data-scroll href="#services" class="btn btn-border scrollcustom">Learn More</i></a>
 
                 </div>
               </div>
@@ -398,9 +398,9 @@
               <h3 class="footer-titel">Quick Links</h3>
               <ul class="footer-link">
                 <li><a href="https://www.manpower.exchange/#hero-area" class="scrollcustomSlow">Go Up<i class="lni-arrow-up"></i></a></li>
-                <li><a href="https://www.manpower.exchange/#services">Services</a></li>
-                <li><a href="https://www.manpower.exchange/#about-us">About us</a></li>
-                <li><a href="https://www.manpower.exchange/#contact">Contact</a></li>
+                <li><a data-scroll href="#services">Services</a></li>
+                <li><a data-scroll href="#about-us">About us</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
                 <li><a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/manpower-exchange/30-minute-meeting'});return false;">Schedule an Appointment</i></a></li>
               </ul>
             </div>
@@ -452,11 +452,18 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      speed: 300,
+      speedAsDuration: true
+    </script>
+
 
   </body>
 </html>
