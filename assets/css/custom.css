@@ -25,9 +25,11 @@
 }
 
 .fixed-top-custom {
-    position: sticky;
+    position: initial;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030
 }
+
+
