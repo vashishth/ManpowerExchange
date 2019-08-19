@@ -97,8 +97,122 @@
   }
 }
 
-/* mobile or only mobile */
-@media (max-width: 506px) {
+
+/* small screen on desktop  */
+@media (min-width: 451px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .navbar-expand-md .navbar-brand,
+  .navbar-expand-md {
+    margin: 5px 5px;
+  }
+  .navbar-toggler {
+    margin: 10px;
+  }
+  .bg-inverse {
+    background: #fff !important;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .navbar-brand img {
+    margin: 5px 0;
+  }
+  .top-nav-collapse .navbar-brand img {
+    margin-top: 10px;
+  }
+  .intro-img {
+    margin-top: 20px;
+  }
+  #hero-area .img-thumb {
+    display: none;
+  }
+  #hero-area .contents .head-title {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+  #hero-area .contents p {
+    font-size: 14px;
+  }
+  #hero-area {
+    padding: 120px 0 80px;
+  }
+  #hero-area .contents .btn {
+    margin: 5px 10px 10px 0px;
+  }
+  .text-wrapper {
+    padding: 60px 15px;
+  }
+  #about .sec-title h3 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .about-area img {
+    margin-top: 30px;
+  }
+  .feature-thumb {
+    padding: 10px;
+  }
+  .testimonial-item {
+    padding: 0;
+  }
+  .client-item-wrapper img {
+    width: 50%;
+  }
+  #cta h4 {
+    font-size: 22px;
+  }
+  #cta .text-right {
+    float: left !important;
+  }
+  #cta .btn {
+    float: left;
+  }
+  .team-item .team-img {
+    width: 100%;
+    float: none;
+  }
+  .team-item .contetn {
+    padding: 15px 30px;
+  }
+  .footer-right-contact .single-contact {
+    margin: 10px 7px;
+    padding: 3px 45px;
+  }
+  .footer-area .footer-titel {
+    margin-top: 30px;
+  }
+  .contact-right-area {
+    margin: 20px 0;
+  }
+  .contact-form-area h2 {
+    font-size: 14px;
+  }
+  .copyright .float-right {
+    float: left !important;
+  }
+  .map {
+    margin-top: 20px;
+  }
+  #cta {
+    padding: 20px 0;
+  }
+  .cta-text {
+    margin-bottom: 30px;
+  }
+}
+
+
+/* iPhone 6 to X */
+@media (min-width: 370px) and (max-width: 450px){
   .section-padding {
     padding: 60px 0;
   }
@@ -209,3 +323,114 @@
   }
 }
 
+/* iPhone SE */
+@media (max-width: 325px){
+  .section-padding {
+    padding: 60px 0;
+  }
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .navbar-expand-md .navbar-brand,
+  .navbar-expand-md {
+    margin: 5px 5px;
+  }
+  .navbar-toggler {
+    margin: 10px 250px;
+  }
+  .bg-inverse {
+    background: #fff !important;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .navbar-brand img {
+    margin: 5px 0;
+  }
+  .top-nav-collapse .navbar-brand img {
+    margin-top: 10px;
+  }
+  .intro-img {
+    margin-top: 20px;
+  }
+  #hero-area .img-thumb {
+    display: none;
+  }
+  #hero-area .contents .head-title {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+  #hero-area .contents p {
+    font-size: 14px;
+  }
+  #hero-area {
+    padding: 120px 0 80px;
+  }
+  #hero-area .contents .btn {
+    margin: 5px 10px 10px 0px;
+  }
+  .text-wrapper {
+    padding: 60px 15px;
+  }
+  #about .sec-title h3 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .about-area img {
+    margin-top: 30px;
+  }
+  .feature-thumb {
+    padding: 10px;
+  }
+  .testimonial-item {
+    padding: 0;
+  }
+  .client-item-wrapper img {
+    width: 50%;
+  }
+  #cta h4 {
+    font-size: 22px;
+  }
+  #cta .text-right {
+    float: left !important;
+  }
+  #cta .btn {
+    float: left;
+  }
+  .team-item .team-img {
+    width: 100%;
+    float: none;
+  }
+  .team-item .contetn {
+    padding: 15px 30px;
+  }
+  .footer-right-contact .single-contact {
+    margin: 10px 7px;
+    padding: 3px 45px;
+  }
+  .footer-area .footer-titel {
+    margin-top: 30px;
+  }
+  .contact-right-area {
+    margin: 20px 0;
+  }
+  .contact-form-area h2 {
+    font-size: 14px;
+  }
+  .copyright .float-right {
+    float: left !important;
+  }
+  .map {
+    margin-top: 20px;
+  }
+  #cta {
+    padding: 20px 0;
+  }
+  .cta-text {
+    margin-bottom: 30px;
+  }
+}
