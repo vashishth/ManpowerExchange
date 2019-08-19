@@ -1,0 +1,35 @@
+.btn-custom {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  border-color: #040404;
+}
+
+.btn-custom:hover {
+  color: inherit;
+  background: yellow;
+  border: 1px dotted #F63854;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -56px;
+}
+
+.fixed-top-custom {
+    position: initial;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+
