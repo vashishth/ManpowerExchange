@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
 html {
   /*overflow-x: hidden;*/
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -17,6 +19,8 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   /*overflow-x: hidden;*/
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3, h4 {
